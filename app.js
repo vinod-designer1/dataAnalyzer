@@ -48,7 +48,7 @@ routes.configRoutes( app, server );
 // -------------- END SERVER CONFIGURATION ----------------
 
 // ----------------- BEGIN START SERVER -------------------
-server.listen( 4000 );
+server.listen( 8080 );
 console.log(
   'Express server listening on port %d in %s mode',
    server.address().port, app.settings.env
