@@ -190,6 +190,7 @@ analyzer.dataset = (function() {
         contentType: false,
         dataType : 'json',
         success:function( data ) {
+          jqueryMap.$modalMain.modal('hide');
           analyzer.dashboard.initModule(jqueryMap.$dashboard);
           analyzer.dashboard.loadData(data);
         }
