@@ -1,0 +1,90 @@
+/*
+ * analyzer.shell.css
+ * Shell styles
+*/
+
+.analyzer-shell-head, .analyzer-shell-head-logo, .analyzer-shell-head-acct,
+.analyzer-shell-head-search, .analyzer-shell-main, .analyzer-shell-main-nav,
+.analyzer-shell-main-content, .analyzer-shell-foot,
+.analyzer-shell-modal {
+  position : absolute;
+}
+.analyzer-shell-head {
+  top    : 0;
+  left   : 0;
+  right  : 0;
+  height : 40px;
+}
+.analyzer-shell-head-logo {
+  top    : 4px;
+  left   : 8px;
+  height : 32px;
+  width  : 128px;
+}
+  .analyzer-shell-head-logo h1 {
+    font   : 800 22px/22px Arial, Helvetica, sans-serif;
+    margin : 0;
+  }
+  .analyzer-shell-head-logo p {
+    font   : 800 10px/10px Arial, Helvetica, sans-serif;
+    margin : 0;
+  }
+
+.analyzer-shell-head-acct {
+  top           : 4px;
+  right         : 0;
+  width         : 210px;
+  height        : 52px;
+  line-height   : 52px;
+  background    : #888;
+  color         : #fff;
+  text-align    : center;
+  cursor        : pointer;
+  overflow      : hidden;
+  text-overflow : ellipsis;
+}
+.analyzer-shell-main {
+  top    : 60px;
+  left   : 0;
+  bottom : 40px;
+  right  : 0;
+}
+.analyzer-shell-main-content,
+.analyzer-shell-main-nav {
+  top    : 0;
+  bottom : 0;
+}
+.analyzer-shell-main-nav {
+  width      : 400px;
+  background : #eee;
+}
+  .analyzer-x-closed .analyzer-shell-main-nav {
+    width  : 0;
+  }
+
+.analyzer-shell-main-content {
+  left  : 400px;
+  right : 0;
+  background : #ddd;
+}
+  .analyzer-x-closed .analyzer-shell-main-content {
+    left : 0;
+  }
+.analyzer-shell-foot {
+  bottom : 0;
+  left   : 0;
+  right  : 0;
+  height : 40px;
+}
+.analyzer-shell-modal {
+  margin-top    : -200px;
+  margin-left   : -200px;
+  top           : 50%;
+  left          : 50%;
+  width         : 400px;
+  height        : 400px;
+  background    : #fff;
+  border-radius : 3px;
+  z-index       : 2;
+  display       : none;
+}

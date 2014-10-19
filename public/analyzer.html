@@ -1,0 +1,58 @@
+<!doctype html>
+<!--
+  analyzer.html
+  analyzer browser document
+-->
+
+<html>
+<head>
+  <!-- ie9+ rendering support for latest standards -->
+  <meta http-equiv="Content-Type" content="text/html; 
+    charset=ISO-8859-1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ANALYZER</title>
+
+  <!-- third-party stylesheets -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+
+  <!-- our stylesheets -->
+  <link rel="stylesheet" href="css/analyzer.css"       type="text/css"/>
+  <link rel="stylesheet" href="css/analyzer.shell.css" type="text/css"/>
+  <link rel="stylesheet" href="css/analyzer.dataset.css" type="text/css"/>
+
+  <!-- third-party javascript -->
+  <script src="js/jq/jquery-2.1.1.js"></script>
+  <script src="js/jq/jquery.uriAnchor.js"></script>
+  <script src="js/tbs/bootstrap.min.js"></script>
+
+  <!-- dashboard external js -->
+  <script src="js/charts/highcharts.js"></script>
+  <script src="js/charts/highcharts-more.js"></script>
+  <script src="js/charts/modules/exporting.js"></script>
+
+
+  <!-- our javascript -->
+  <script src="js/graph.js"></script>
+  <script src="js/widget.js"></script>
+  <script src="js/analyzer.js"></script>
+  <script src="js/analyzer.request.js"></script>
+  <script src="js/analyzer.util.js"></script>
+  <script src="js/analyzer.util_b.js"></script>
+  <script src="js/analyzer.shell.js"></script>
+  <script src="js/analyzer.dataset.js"></script>
+  <script src="js/analyzer.dashboard.js"></script>
+  <script src="js/analyzer.data.js"></script>
+
+  <script type="text/javascript">
+    $(function() {
+      analyzer.initModule( $("#analyzer") );
+    });
+  </script>
+
+</head>
+<body>
+<div class="container-fluid" id="analyzer"></div>
+</body>
+</html>
