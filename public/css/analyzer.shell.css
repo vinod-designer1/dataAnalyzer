@@ -66,6 +66,7 @@
   left  : 400px;
   right : 0;
   background : #ddd;
+  overflow-y: auto;
 }
   .analyzer-x-closed .analyzer-shell-main-content {
     left : 0;
